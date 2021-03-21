@@ -1,0 +1,78 @@
+main{
+    width: 85%;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    text-align: center;
+    border: 20px solid lightgoldenrodyellow;
+}
+
+table{
+    height: 720px;
+    width: 720px;
+    background-color: white;
+    margin: auto;
+    border: 3px solid steelblue
+}
+
+.table-cell{
+    border: 3px solid steelblue;
+    width: 240px;
+    height: 240px;
+    font-size: 150px;
+}
+
+#player-form{
+    width: 50%;
+    background-color: burlywood;
+    border: 25px solid burlywood;
+    margin: auto;
+    text-align: center;
+}
+
+.player-input{
+    border: none;
+    height: 30px;
+    width: 75%;
+    margin: 25px;
+    background-color: darksalmon;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#enter-player-info{
+    border: 5px solid chocolate;
+    background-color: chocolate;
+    color: black;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#player-infos{
+    width: 75%;
+    margin: 10px auto;
+    background-color: coral;
+    display: flex;
+    justify-content: space-evenly;
+    border: 10px solid coral;
+}
+
+.player-info{
+    width: 25%;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+hr{
+    border-color: black;
+}
+
+#current-player-display{
+    background-color: cornsilk;
+    border: 5px solid cornsilk;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
